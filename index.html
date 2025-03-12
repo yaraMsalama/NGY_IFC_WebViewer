@@ -1,0 +1,41 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <script src="https://cdn.jsdelivr.net/npm/iconify-icon@2.1.0/dist/iconify-icon.min.js"></script>
+    <!-- <link rel="icon" type="image/svg+xml" href="/vite.svg" /> -->
+    <link rel="icon" type="image/png" href="./src/heptagon.png" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./src/style.css">
+    <title>NGY Viewer</title>
+  </head>
+  <body>
+    <div id="app" >
+      <img  id="iti-logo" src="./src/iti-logo.png" alt="iti-logo">
+
+      <div id="toolsBar" class="toolsBar">
+        <button id="loadBtn" class="bar_btn">
+          <iconify-icon icon="iconoir:upload" width="30" height="30"></iconify-icon>
+        </button>
+        <button id="SectionBtn" class="bar_btn">
+          <iconify-icon icon="icon-park-solid:cutting-one" width="24" height="24"></iconify-icon>
+        </button>
+        <button id="LengthBtn" class="bar_btn">
+          <iconify-icon icon="tabler:ruler-measure" width="24" height="24"  style="color: #fff"></iconify-icon>
+        </button>
+        <button id="classifierbtn" class="bar_btn">
+          <iconify-icon icon="lets-icons:line-in" width="24" height="24"></iconify-icon>
+        </button>
+        <button id="undoBtn" class="bar_btn">
+          <iconify-icon icon="material-symbols:undo" width="24" height="24"></iconify-icon>
+          <span>Undo</span>
+        </button>
+        <button id="redoBtn" class="bar_btn">
+          <iconify-icon icon="material-symbols:redo" width="24" height="24"></iconify-icon>
+          <span>Redo</span>
+        </button>
+      </div>
+    </div>
+    <script type="module" src="/src/main.ts"></script>
+  </body>
+</html>
